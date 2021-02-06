@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfa Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="quiz_style.css">
+    
+</head>
+<body onload="loadQuiz()">
+    <div class="container-fluid">
+        <div class="notify">
+            <h1 id="notify-text"></h1>
+        </div>
+        <div class="quiz-card">
+            <div class="quiz-head">
+                <h2>Basic Quiz</h2>
+            </div>
+            <div class="quiz-sect">
+                <div class="ques">
+                    <h3 id="q-text"><span id="q-id">1.</span> What is Called brain of computer ? </h3>
+                </div>
+                <div class="options">
+                
+                    <table style="width:100%;margin-left: 20px;">
+                        <tr>
+                            <td>
+                                <input type="radio" name="option" id="op-1">
+                                <label for="option">CPU</label>
+                            </td>
+                            <td></td>
+                            <td>
+                                <input type="radio" name="option" id="op-2">
+                                <label for="option">Mouse</label>
+                            </td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <input type="radio" name="option" id="op-3">
+                                <label for="option">Motherboard</label>
+                            </td>
+                            <td></td>
+                            <td>
+                                <input type="radio" name="option" id="op-4">
+                                <label for="option">Monitor</label>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div>
+            <div class="btn-sector">
+
+                <table style="width:100%;margin-left:20px">
+                    <tr>
+                        <td>
+                            <a href="#" class="check-btn">Check Answer</a>
+                        </td>
+                        <td>
+                            <span class="pagination-section">
+                                <a href="#" class="prev-btn"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+                                </a>
+                                <span id="q-id" class="q-var">1</span>
+                                <a href="#" class="next-btn"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                                </a>
+                            </span>
+                        </td>
+                        <td>
+                            <a href="#" class="show-btn">Show Answer</a>
+                        </td>
+                    </tr>
+                </table>
+                
+                
+                
+
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

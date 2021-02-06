@@ -1,0 +1,34 @@
+[
+    {
+        "question" : "What is called brain of computer ?",
+        "qNumber":1,
+        "answer":"cpu",
+        "options":["cpu","mouse","motherboard","monitor"]
+    },
+    {
+        "question" : "Who is called father of computer ?",
+        "qNumber":2,
+        "answer":"charles babbage",
+        "options":["howard aikens","alan turing","charles babbage","steve jobs"]
+    },
+    {
+        "question" : "What is RAM?",
+        "qNumber":3,
+        "answer":"volatile memory",
+        "options":["non-volatile memory","volatile memory","good memory","hard disk"]
+    },
+    {
+        "question" : "which was the first Electronic computer?",
+        "qNumber":4,
+        "answer":"eniac",
+        "options":["mark-i","eniac","apple-1","univac"]
+    },
+    {
+        "question" : "who is the founder of Microsoft?",
+        "qNumber":5,
+        "answer":"bill gates",
+        "options":["steve jobs","mark zuckerberg","bill gates","satya nadella"]
+    }
+
+
+]
